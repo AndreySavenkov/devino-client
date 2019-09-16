@@ -1,5 +1,5 @@
-# Laravel Devino Notification Channel
+# Devino Client
 
 ## License
 
-Laravel Devino Notification Channel is open-sourced software licensed under the [MIT license](LICENSE.md).
+Devino Client is open-sourced software licensed under the [MIT license](LICENSE.md).
