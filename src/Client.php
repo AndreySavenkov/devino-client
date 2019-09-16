@@ -3,7 +3,6 @@
 namespace in7rude\Devino;
 
 use Exception;
-use Illuminate\Support\Facades\Log;
 
 /**
  * Клиент для взаимодействия с Devino REST API
