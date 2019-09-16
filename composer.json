@@ -1,0 +1,38 @@
+{
+    "name": "in7rude/devino-client",
+    "description": "Devino Client.",
+    "keywords": ["devino"],
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Andrey Savenkov",
+            "email": "a@savenkov.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "in7rude\\Devino\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Illuminate\\Tests\\Notifications\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
